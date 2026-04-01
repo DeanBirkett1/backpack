@@ -7,7 +7,7 @@ description: >
   expert sources, and Skyscanner-specific patterns. Always load this skill
   first. If working on a Backpack component, also load the backpack-a11y
   skill on top.
-owner: Heather Hepburn / Dean Birkett
+owner: Heather Hepburn
 version: "1.0.0"
 last_reviewed: 2026-04-01
 ---

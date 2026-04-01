@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Accessibility Sub-Agent — Rules Configuration
-# Owner: Dean Birkett (Accessibility, Skyscanner)
+# Owner: Heather Hepburn (Skyscanner)
 # Last reviewed: 2026-03-31
 #
 # This file controls what the accessibility sub-agent checks, how it scores
@@ -16,7 +16,7 @@
 agent:
   name: accessibility
   version: "0.2.0"
-  domain_owner: "Dean Birkett"
+  domain_owner: "Heather Hepburn"
   route_to: "accessibility"           # Default Jira/Slack routing target
   description: >
     Checks WCAG 2.2 AA compliance. Covers colour contrast, keyboard
@@ -50,7 +50,7 @@ tiers:
     block_on_impact: "High"           # Stricter — any High blocks launch
     action_required_high_count: 1
     requires_human_signoff: true
-    signoff_contact: "Dean Birkett"
+    signoff_contact: "Heather Hepburn"
 
   high:
     # Examples: search results, hotel/car booking panel
@@ -170,7 +170,7 @@ suppressions:
       script (scripts/check-colour-contrast.js). Suppressed here to avoid
       duplicate findings.
     review_date: "2026-09-01"
-    owner: "Dean Birkett"
+    owner: "Heather Hepburn"
 
 
 # ── Affected user group defaults ──────────────────────────────────────────────
