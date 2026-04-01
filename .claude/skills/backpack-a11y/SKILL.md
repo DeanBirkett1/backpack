@@ -6,7 +6,7 @@ description: >
   Always load the general skyscanner-a11y skill first, then load this skill
   on top. This skill adds Backpack component contracts, design system patterns,
   and Storybook guidance to the general accessibility foundation.
-owner: Dean Birkett / Gert-Jan Vercauteren
+owner: Gert-Jan Vercauteren
 version: "1.0.0"
 last_reviewed: 2026-04-01
 ---
@@ -173,4 +173,4 @@ Before a new or modified Backpack component is merged:
 ## Contacts
 
 - Design system: Gert-Jan Vercauteren
-- Accessibility: Dean Birkett
+- Accessibility: Heather Hepburn
