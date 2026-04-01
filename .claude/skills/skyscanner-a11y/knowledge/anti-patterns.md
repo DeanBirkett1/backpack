@@ -30,7 +30,7 @@ Never do the following:
 
 ## When ARIA Is Appropriate
 
-- `aria-label` on icon-only buttons (no visible text)
+- `aria-label` on icon-only buttons (no visible text), only if visually-hidden, alt or aria-labelledby has been ruled out
 - `aria-label` on landmark regions needing disambiguation (`<nav aria-label="Primary">`)
 - `aria-labelledby` to reference visible text as a region or widget label
 - `aria-describedby` for hints, errors, supplementary context

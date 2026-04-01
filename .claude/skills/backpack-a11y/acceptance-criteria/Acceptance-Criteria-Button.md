@@ -41,12 +41,10 @@ A button is an interactive element that triggers an action or event. Buttons mus
 
 ### Icon-only buttons
 
-- Icon-only buttons have an `aria-label` that communicates the action — e.g. `aria-label="Close"`.
+- Icon-only buttons have include an accessible name that communicates the action — e.g. `Close"`.
   - **WCAG 4.1.2** Name, Role, Value
 - The icon is hidden from the accessibility tree (`aria-hidden="true"`).
   - **WCAG 1.1.1** Non-text Content
-- If the icon is not widely recognised, a tooltip appears on hover and focus to reinforce the label.
-  - Best practice
 
 ### Toggle buttons
 

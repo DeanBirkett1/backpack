@@ -5,13 +5,13 @@
       "id": 1,
       "use_case": "icon-only-button",
       "prompt": "Review this Backpack icon-only button for accessibility issues:\n\n```html\n<button class=\"BpkButton BpkButton--secondary\">\n  <svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M12 2l10 20H2z\"/></svg>\n</button>\n```",
-      "expected_output": "High finding: button has no accessible name. Must have aria-label describing the action.",
+      "expected_output": "High finding: button has no accessible name.",
       "component": "BpkButton",
       "a11y_patterns": ["icon-only-button", "accessible-name"],
       "expectations": [
         "Flags missing accessible name as High impact",
         "References WCAG 4.1.2 Name, Role, Value",
-        "Recommends aria-label on the button",
+        "Recommends alt text or a visually-hidden class",
         "Does not recommend title attribute",
         "Identifies affected groups as Screen reader users and Speech input users"
       ]
