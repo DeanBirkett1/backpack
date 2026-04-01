@@ -47,8 +47,8 @@ Before any component or feature is considered done:
 - [ ] Keyboard navigation tested — all interactive elements reachable and operable
 - [ ] Visible focus indicator present on all interactive elements
 - [ ] Tested with NVDA + Chrome and VoiceOver + Safari
-- [ ] Touch targets meet 44×44px minimum (mobile surfaces) (HIG and Material guidelines)
-- [ ] Touch targets meet 24x24px minimum (WCAG 2.x requirement)
+- [ ] Touch targets meet 44×44px minimum (mobile surfaces) - Apple HIG and Android Material guidelines
+- [ ] Touch targets meet 24x24px minimum (WCAG)
 - [ ] No colour-only information conveyance
 - [ ] All images have appropriate alt text or are marked decorative
 - [ ] Dynamic content changes announced via live regions where appropriate

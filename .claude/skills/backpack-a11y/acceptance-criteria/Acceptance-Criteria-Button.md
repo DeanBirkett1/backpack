@@ -10,6 +10,8 @@ A button is an interactive element that triggers an action or event. Buttons mus
 
 **Backpack guidance:** skyscanner.design/latest/components/button/accessibility-A6FBXJ3V
 
+> Baseline criteria apply to this component — see `Acceptance-Criteria-Baseline.md` for Visual design, Adaptive UI, Focus, Accessible naming, and Motion.
+
 ---
 
 ## Backpack design notes
@@ -41,10 +43,12 @@ A button is an interactive element that triggers an action or event. Buttons mus
 
 ### Icon-only buttons
 
-- Icon-only buttons have include an accessible name that communicates the action — e.g. `Close"`.
+- Icon-only buttons have an `aria-label` that communicates the action — e.g. `aria-label="Close"`.
   - **WCAG 4.1.2** Name, Role, Value
 - The icon is hidden from the accessibility tree (`aria-hidden="true"`).
   - **WCAG 1.1.1** Non-text Content
+- If the icon is not widely recognised, a tooltip appears on hover and focus to reinforce the label.
+  - Best practice
 
 ### Toggle buttons
 
@@ -67,23 +71,3 @@ A button is an interactive element that triggers an action or event. Buttons mus
   - **WCAG 2.4.11** Focus Not Obscured (Minimum)
 
 ---
-
-## Visual design
-
-- Button label text meets a minimum contrast ratio of 4.5:1 against its background (3:1 for large text). Disabled buttons in HTML are exempt.
-  - **WCAG 1.4.3** Contrast (Minimum)
-- If the button uses a custom focus style, the focus indicator meets a 3:1 contrast ratio against adjacent colours.
-  - **WCAG 1.4.11** Non-text Contrast
-
----
-
-## Adaptive UI
-
-- Button label text can be increased to 200% without truncation or content loss.
-  - **WCAG 1.4.4** Resize Text
-- Text spacing can be increased without text overlapping, truncating, or being cut off.
-  - **WCAG 1.4.12** Text Spacing
-- The button is visible and operable at 320px viewport width.
-  - **WCAG 1.4.10** Reflow
-- Touch target size meets a minimum of 24×24px (WCAG minimum) — recommended 44×44pt on iOS.
-  - **WCAG 2.5.8** Target Size (Minimum)

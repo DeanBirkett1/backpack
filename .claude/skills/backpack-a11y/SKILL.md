@@ -82,7 +82,7 @@ general rules.
 
 **BpkButton**
 - Primary, secondary, destructive, and link variants all need accessible names
-- Icon-only buttons must have an accessible name — never rely on the icon alone
+- Icon-only buttons must have `aria-label` — never rely on the icon alone
 - Loading state must announce "loading" to AT — use visually hidden text
   or `aria-label` update, not just a spinner
 
