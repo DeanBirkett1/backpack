@@ -5,7 +5,7 @@
 Skyscanner targets **WCAG 2.2 Level AA** as the minimum conformance standard
 across all digital products. This applies to web, iOS, and Android surfaces.
 
-Relevant legislation: EN 301 549 (EAA), WCAG 2.2 (W3C).
+Relevant legislation: EN 301 549 (EAA), WCAG 2.2 (W3C), Equality Act 2010 (UK).
 
 ---
 
