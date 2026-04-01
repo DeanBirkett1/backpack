@@ -77,3 +77,13 @@ Last reviewed: 2026-03-25
 | Skyscanner acceptance criteria | `.claude/skills/a11y-review/acceptance-criteria/` — check INDEX.md |
 | Skyscanner-specific patterns | `.claude/skills/a11y-review/references/` — booking-flow-patterns.md, anti-patterns.md |
 | AT testing guidance | `.claude/skills/a11y-testing/references/` — component-testing.md, at-quirks.md |
+
+---
+
+## Native platform guidelines
+
+| Source | URL | Use for |
+|---|---|---|
+| Apple Human Interface Guidelines — Accessibility | https://developer.apple.com/design/human-interface-guidelines/accessibility | iOS accessibility implementation, VoiceOver patterns, Dynamic Type |
+| Android Material Design — Accessibility | https://m3.material.io/foundations/overview/principles | Android accessibility, TalkBack, Material component behaviour |
+| Android developer accessibility guide | https://developer.android.com/guide/topics/ui/accessibility | contentDescription, LiveRegion, Jetpack Compose accessibility |
